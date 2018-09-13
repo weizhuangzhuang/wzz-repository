@@ -1,5 +1,7 @@
 package com._wzzit_01;
 
+import java.io.File;
+
 import org.junit.Test;
 
 /**
@@ -12,9 +14,14 @@ import org.junit.Test;
 public class Test01 {
 	@Test
 	public void fun() {
-
-		System.out.println("hello");
-
+		//File file = new File("D:\\aaa\\ccc.txt");
+		//从文件全路径中得到文件名
+		//file.getName();
+		//从文件全路径中得到文件路径
+		//file.getParent();
+		//System.out.println(file.getParent());
+		char c = 3 + '0';
+		System.out.println(c);
 	}
 
 }
